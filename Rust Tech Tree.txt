@@ -1,0 +1,205 @@
+Rust Tech Tree
+
+T1
+
+Salvaged Hammer
+    Paddle
+        Boat
+    Hatchet
+        Spike Trap
+            Wooden Hedgehog
+                Bear Trap
+                Barbed Wooden Hedgehog
+                    Wooden Shutter
+                        Metal Window Bars
+                    Ladder
+                        Watchtower
+                            High Wooden Wall
+                                High Wooden Gate
+        Wooden Cover
+            Stone Barricade
+                Sandbags
+                    Chain Fence
+                        Chain Fence Gate
+                            Hatch
+                                Triangle Hatch
+        Tuna Lamp
+            Rug
+                Sign
+                    Bear Rug
+                        Sign 2
+                            Spinning Wheel
+                                Dropbox
+    Pick
+        Salvaged Sword
+            Mace
+                Roadsign Sword
+                    Waterpipe
+                        Double Barrel
+                            Shotgun Trap
+                                Silencer
+                        Flare
+                            9mm
+                                Revolver
+                                    Bean Can
+                                        Satchel
+                                    Combat Knife?
+                                        Flame Turret
+                        Combat Knife
+                            Binos
+                                Weapon Flashlight
+Tank Top
+    Tee
+        Shirt
+            Shorts
+                Pants
+                    Jacket
+    Hat?
+        Mask
+            Long Sleeve
+                Parka
+                    Jacket
+            Miner Hat
+                Riot
+                    Leather Gloves
+Bucket
+    Bucket Helm
+    Small Water Catch
+        Pump
+            Water Combiner
+                Water Splitter
+            Sprinkler
+    Barrel
+        Large Planter
+    Fridge
+        Letterbox
+            Chair
+                Shelves
+                    Bed
+                        Fireplace
+                Table
+                    Mixing Station
+Switch
+    Small Battery
+        Large Solar
+            Splitter
+                Divider
+                    Speaker
+                        Phone
+            Combiner
+                Blocker
+                    Or Switch
+                        And Switch
+            Light
+                Timer
+                    Door Opener
+                        Igniter
+                    Pressure Plate
+                        Medium Battery?
+                            Target
+                Blue Light
+                Red Light
+                Heater
+
+T2
+
+Rad Suit
+    Hoodie
+        Roadsign Gloves
+            RS Horse
+                HQ Horse Shoe
+            RS Kilt
+                Heavy Plate
+                    NVGs
+    Boots
+        Bean Can
+            RS Chest
+                Heavy Plate
+                    NVGs
+    Syringe
+        Medkit
+Longsword
+    Salvaged Axe
+        Salvaged Pick
+            00 Bucket
+                Semi Shotty
+                    Landmine
+                        Semi Pistol
+                            F1 Grenade
+                                Python
+                                    ?
+                                        Muzzle Boost
+                                            SMG
+                                                Smoke...
+                                        Muzzle Break
+                                            ?
+                                                Smoke
+                                                    7.62
+                                                        Semi Rifle
+                                                            8x?
+                                                                rapid fire
+                                                                ?
+                                                                ?
+                Shotty Incen
+                    Shotty Slug
+            Window Armor
+                Window Slits
+                    Glass Window
+                        Garage Door
+            Prison Cage
+                Prison Door
+                    Trap Door
+                        Medium Battery
+                            Armored Double Door
+                                Large Furnace
+                                    ?
+                                    Large Catcher
+                                        Refinery
+                                            Stone Exterior
+                                                Stone Ex Door
+                            Generator
+                                Desalination
+                                    Source Pump
+                                Mem Cell
+                                    CRT Number
+                                        XOR Switch
+                                            Tesla
+                                            Phone Trigger Thing
+                                                ?
+                                                Smart Switch
+                                                Laser Trip
+                                                    Elevator
+                                Rand Cell
+                                    HRBT
+                                        Spotlight
+                                            Large Battery
+                                                ?
+                            Pager
+                                ?
+                                    ?
+                                        ?
+                                            ?
+                                                ?
+                            Car Stand
+                                Engine Parts
+                                    Cab Parts
+
+T3
+
+Armored Window 
+    Armored Door
+        Armored Double Door
+    MP5
+        Weapon Laser
+            HP 7.62
+                Explosive 7.62
+                Incen 7.62
+                    Metal Mask
+                    Metal Chest
+                        AK
+                            Bolty
+                                ?
+                    Explosive
+                        C4
+                            Rocket
+
