@@ -1,0 +1,51 @@
+id,name,scrap-cost,parent,parent2,crafting-tier
+null,null,null,null,,null
+1,Salvaged Hammer,75,null,,1
+2,Paddle,20,Salvaged Hammer,,1
+3,Kayak,20,Paddle,,1
+4,Hatchet,75,Salvaged Hammer,,1
+5,Wooden Floor Spikes,20,Hatchet,,1
+6,Wooden Barricade,20,Wooden Floor Spikes,,1
+7,Snap Trap,75,Wooden Barricade,,1
+8,Barbed Wooden Barricade,75,Wooden Barricade,,1
+9,Wood Shutters,20,Barbed Wooden Barricade,,1
+10,Metal Window Bars,75,Wood Shutter,,1
+11,Wooden Ladder,125,Barbed Wooden Barricade,,1
+12,Watch Tower,75,Wooden Ladder,,1
+13,High External Wooden Wall,125,Watch Tower,,1
+14,High External Wooden Gate,125,High External Wooden Wall,,1
+15,Pickaxe,75,Salvaged Hammer,,1
+16,Salvaged Sword,20,Pickaxe,,1
+17,Mace,75,Salvaged Sword,,1
+18,Salvaged Cleaver,75,Mace,,1
+19,Waterpipe Shotgun,75,Salvaged Cleaver,,1
+20,Double Barrel Shotgun,125,Waterpipe Shotgun,,1
+21,Shotgun Trap,125,Double Barrel Shotgun,,1
+22,Silencer,75,Shotgun Trap,,1
+23,Flare,20,Salvaged Cleaver,,1
+24,Pistol Bullet,75,Flare,,1
+25,Revolver,75,Pistol Bullet,,1
+26,Beancan Grenade,75,Revolver,,1
+27,Satchel Charge,125,Beancan Grenade,,1
+28,Fire Arrow,20,Revolver,,1
+29,Flame Turret,75,Fire Arrow,,1
+30,Combat Knife,75,Waterpipe Shotgun,,1
+31,Binoculars,75,Combat Knife,,1
+32,Weapon Flashlight,75,Binoculars,,1
+33,Tank Top,20,null,,1
+34,T-Shirt,20,Tank Top,,1
+35,Shirt,75,T-Shirt,,1
+36,Shorts,20,Shirt,,1
+37,Pants,75,Shorts,,1
+38,Jacket,20,Pants,Snow Jacket,1
+39,Beenie Hat,20,Tank Top,,1
+40,Improvised Balaclava,20,Beenie Hat,,1
+41,Longsleeve T-Shirt,20,Improvised Balaclava,,1
+42,Snow Jacket,20,Longsleeve T-Shirt,,1
+43,Miners Hat,20,Improvised Balaclava,,1
+44,Riot Helmet,75,Miners Hat,,1
+45,Leather Gloves,20,Riot Helmet,,1
+46,,,Leather Gloves,,1
+47,,,,,1
+48,,,,,1
+,,,,,1
