@@ -45,7 +45,55 @@ null,null,null,null,,null
 43,Miners Hat,20,Improvised Balaclava,,1
 44,Riot Helmet,75,Miners Hat,,1
 45,Leather Gloves,20,Riot Helmet,,1
-46,,,Leather Gloves,,1
-47,,,,,1
-48,,,,,1
+46,Water Bucket,20,null,,1
+47,Bucket Helmet,75,Water Bucket,,1
+48,Small Water Catcher,20,Water Bucket,,1
+49,Fluid Switch & Pump,20,Small Water Catcher,,1
+50,Fluid Combiner,20,Fluid Switch & Pump,,1
+51,Fluid Splitter,20,Fluid Combiner,,1
+52,Sprinkler,20,Fluid Switch & Pump,,1
+53,Fridge,20,Water Bucket,,1
+54,Mail Box,20,Fridge,,1
+55,Chair,20,Mail Box,,1
+56,Salvaged Shelves,75,Chair,,1
+57,Bed,75,Salvaged Shelves,,1
+58,Stone Fireplace,20,Bed,,1
+59,Table,20,Chair,,1
+60,Mixing Table,75,Table,,1
+61,Switch,20,null,,1
+62,Small Rechargeable Battery,20,Switch,,1
+63,Large Solar Panel,75,Small Rechargeable Battery,,1
+64,Splitter,20,Large Solar Panel,,1
+65,Electrical Branch,20,Splitter,,1
+66,Audio Alarm,20,Electrical Branch,,1
+67,Telephone,75,Audio Alarm,,1
+68,Root Combiner,75,Large Solar Panel,,1
+69,Blocker,20,Root Combiner,,1
+70,OR Switch,20,Blocker,,1
+71,XOR Switch,20,OR Switch,,1
+72,Ceiling Light,20,Large Solar Panel,,1
+73,Timer,20,Ceiling Light,,1
+74,Door Controller,75,Timer,,1
+75,Igniter,20,Door Controller,,1
+76,Pressure Pad,20,Timer,,1
+77,Button,75,Pressure Pad,,1
+78,Reactive Target,20,Button,,1
+79,Flasher Light,20,Ceiling Light,,1
+80,Siren Light,20,Ceiling Light,,1
+81,Electric Heater,75,Ceiling Light,,1
+82,,,,,1
+83,,,,,1
+,,,,,1
+,,,,,1
+,,,,,1
+,,,,,1
+,,,,,1
+,,,,,1
+,,,,,1
+,,,,,1
+,,,,,1
+,,,,,1
+,,,,,1
+,,,,,1
+,,,,,1
 ,,,,,1
