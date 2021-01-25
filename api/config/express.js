@@ -1,12 +1,12 @@
-const express = require('express');
+const express = require('express')
 const helmet = require('helmet')
-const morgan = require('morgan')
 const bodyParser = require('body-parser')
+const morgan = require('morgan')
 
 module.exports = function () {
     // INITIALISE EXPRESS //
     const app = express();
-    var jsonParser = bodyParser.json()
+    app.use(bodyParser.urlencoded({ extended: true }))
     app.use(helmet())
     app.use(morgan('common'))
 
