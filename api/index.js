@@ -4,9 +4,10 @@ const express = require('./config/express.js')
 const app = express()
 const port = 4941
 
-var mongodb = require('./config/db.js')
-var db = mongodb()
+var db_init = require('./config/db.js')
+
+db_init.createDbCon()
 
 app.listen(port, function () {
-  console.log(`Listening on port: ${port}`)
+    console.log(`Listening on port: ${port}`)
 })

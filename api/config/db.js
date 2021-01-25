@@ -1,21 +1,26 @@
-const MongoClient = require('mongodb').MongoClient
-const uri =
-    'mongodb+srv://Kyran:R31dr4n12@rustapp.bzk0z.mongodb.net/RustApp?retryWrites=true&w=majority'
-const client = new MongoClient(uri, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-    poolSize: 10,
-})
+const sqlite3 = require('sqlite3').verbose()
 
-module.exports = function () {
-    try {
-        client.connect((err, db) => {
-            const collection = client.db('test').collection('devices')
-            console.log('Db connection pool created')
+let db;
 
-            return db
-        })
-    } finally {
-        client.close()
-    }
+exports.createDbCon = () => {
+    // open the database
+    db = new sqlite3.Database(
+        './db/rusttechtree.sqlite3',
+        (err) => {
+            if (err) {
+                throw new Error(err.message)
+            }
+            console.log('Connected to the database.')
+        }
+    )
+    return db
+}
+
+exports.closeDbCon = () => {
+    db.close((err) => {
+        if (err) {
+            throw new Error('Failed to disconnect from db')
+        }
+        console.log("Disconnected from the database")
+    })
 }
