@@ -13,7 +13,8 @@ module.exports = function () {
     app.rootUrl = '/api/v1';
 
     // ROUTES //
-    require('../app/routes/backdoor.routes.js')(app);
+    require('../app/routes/backdoor.routes')(app);
+    require('../app/routes/item.routes')(app)
 
     return app;
 };

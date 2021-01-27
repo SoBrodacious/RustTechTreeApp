@@ -6,7 +6,7 @@ const port = 4941
 
 var db_init = require('./config/db.js')
 
-db_init.createDbCon()
+global.db = db_init.createDbCon()
 
 app.listen(port, function () {
     console.log(`Listening on port: ${port}`)
