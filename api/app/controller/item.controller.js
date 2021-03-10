@@ -27,32 +27,22 @@ exports.getItemChildren = async (req, res) => {
 }
 
 exports.getTree = async (req, res) => {
-    var id = 1
-    var output = { }
-    output = await dfs(id, output)
-
-    if (output) {
-        res.status(200).json(output)
-    } else {
-        res.status(404).send()
-    }
-}
-
-async function dfs(node, tree) {
-    return await Item.findChildrenByParentId(node, tree, async function (childItemsData) {
-        if (childItemsData.length > 0) {
-            for (var i = 0; i < childItemsData.length; i++) {
-                var child = childItemsData[i]
-                tree[child.id] = {
-                    name: child.name,
-                    scrap_cost: child.scrap_cost,
-                    tech_level: child.tech_level,
-                    type: child.type,
-                    parent: child.parent,
+    await Item.findAllItems(function (itemsData) {
+        if (itemsData == null) {
+            res.status(404).send()
+        } else {
+            output = {}
+            for (var i in itemsData) {
+                output[itemsData[i].id] = {
+                    name: itemsData[i].name,
+                    scrap_cost: itemsData[i].scrap_cost,
+                    tech_level: itemsData[i].tech_level,
+                    type: itemsData[i].type,
+                    parent: itemsData[i].parent,
                 }
-                tree = await dfs(child.id, tree)
             }
+
+            res.status(200).json(output)
         }
-        return tree
     })
 }
