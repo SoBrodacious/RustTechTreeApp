@@ -1,17 +1,39 @@
 import './Tree.scss'
 
-import React from 'react'
+import * as React from 'react'
 import axios from 'axios'
 
 //import Node from './Node/Node'
 
-class Tree extends React.Component {
-    constructor() {
-        super()
-        this.state = {itemTree: {}}
-    }
+interface Props {}
+
+interface State {
+    itemTree: itemTreeDec[];
+}
+
+export interface Data {
+    name: string;
+    scrap_cost: string;
+    tech_level: string;
+    type: string;
+    parent?: any;
+}
+
+export interface itemTreeDec {
+    id: string;
+    data: Data;
+}
+
+export default class Tree extends React.Component<Props, State> {
+    state: State = {
+        itemTree: []
+      };
 
     componentDidMount() {
+        this.getTreeFromApi()
+    }
+
+    getTreeFromApi = () => {
         axios.get('http://127.0.0.1:4941/api/v1/tree/').then((res) => {
             return res.data
         }).then((data) =>{
@@ -24,17 +46,12 @@ class Tree extends React.Component {
     }
 
     render() {
-        var arr = [];
-        for (var prop in this.state.itemTree){
-            arr.push(prop)
-        }
-
         return (
             <div className='Tree'>
                 {
-                    arr.map((items =>
+                    this.state.itemTree.map((item =>
                         <th key="">
-                            {this.state.itemTree[items].name}
+                            {item.data.name}
                         </th>
                     ))
                 }
@@ -42,5 +59,3 @@ class Tree extends React.Component {
         )
     }
 }
-
-export default Tree

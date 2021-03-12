@@ -1,10 +1,14 @@
-import React from 'react'
+import * as React from 'react'
 import './App.scss'
 
 import Header from './Header/Header'
 import Tree from './Tree/Tree'
 
-class App extends React.Component {
+interface Props {}
+
+interface State {}
+
+export default class App extends React.Component<Props, State> {
     render() {
         return (
             <div className='App'>
@@ -14,5 +18,3 @@ class App extends React.Component {
         )
     }
 }
-
-export default App

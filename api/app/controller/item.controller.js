@@ -31,15 +31,18 @@ exports.getTree = async (req, res) => {
         if (itemsData == null) {
             res.status(404).send()
         } else {
-            output = {}
+            output = []
             for (var i in itemsData) {
-                output[itemsData[i].id] = {
-                    name: itemsData[i].name,
-                    scrap_cost: itemsData[i].scrap_cost,
-                    tech_level: itemsData[i].tech_level,
-                    type: itemsData[i].type,
-                    parent: itemsData[i].parent,
-                }
+                output.push({
+                    id: itemsData[i].id,
+                    data: {
+                        name: itemsData[i].name,
+                        scrap_cost: itemsData[i].scrap_cost,
+                        tech_level: itemsData[i].tech_level,
+                        type: itemsData[i].type,
+                        parent: itemsData[i].parent,
+                    },
+                })
             }
 
             res.status(200).json(output)
