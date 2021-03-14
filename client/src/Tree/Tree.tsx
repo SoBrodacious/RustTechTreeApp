@@ -17,6 +17,7 @@ export interface Data {
     tech_level: string
     type: string
     parent?: any
+    image: string
 }
 
 export interface itemTreeDec {
@@ -42,7 +43,6 @@ export default class Tree extends React.Component<Props, State> {
             .then((data) => {
                 var itemTree = data
                 this.setState({ itemTree })
-                console.log('state', this.state.itemTree)
             })
             .catch((err) => {
                 console.error(err)
